@@ -1,0 +1,36 @@
+Josh Terry
+CS 4591 - Computer Audio
+31 May 2018
+
+Class Exercise 4 writeup
+
+For this exercise, I created an audio tape reel-to-reel visualization with play, stop, reset, reverse, fast-forward, playhead scrubbing, music volume sliding, and foley volume sliding functionality. Every time a button is pressed, its respective sound effect fires. The playhead is disallowed from being less than zero or greater than the length of the music via a check in the program's draw method.
+
+Buttons
+    Play - Sets playback to 1.0 rate and begins playback.
+    Stop - Stops playback at current position.
+    Reset - Stops playback and resets playhead to beginning of music.
+    Reverse - Sets playback to -2.0 rate and begins playback.
+    Fast Forward - Sets playback to 2.0 rate and begins playback.
+
+Sliders
+    Playhead Slider - Displays seconds of the music played.
+                      Click and drag to adjust playhead location.
+    Music Volume - Click and drag to adjust music volume.
+    Foley Volume - Click and drag to adjust foley volume.
+
+Extra features
+    - Tape visualizer in which reels rotate and tape moves done using PShapes and some trigonometry based on playhead position.
+    - Playhead slider to view and manipulate playhead position.
+    - Aesthetically pleasing background and fairly intuitive button layout designed by me using Processing and Photoshop.
+    - Multiple distinct, thematically consistent sound effects, all from one source file of me making a popping noise with my mouth.
+    - Currently active buttons remain highlighted
+    - Music volume and foley volume sliders.
+
+Challenges
+    - Had implemented slider noises, but they always fired upon startup. Seeing as the exercise only requires button SFX, I opted to not include slider noises to maintain polish.
+    - The tape reel isn't perfect. I draw a line between the bottom of each circle, rather than a tangent line between the two circles. This isn't as pretty, but is much simpler and less expensive for the computer to figure out.
+    - The number to the right of the music and foley volume sliders looks a bit rough, but it doesn't like not drawing.
+
+Music
+    Niel Cicierega's "Wndrwll" http://neilcic.com/

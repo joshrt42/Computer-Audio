@@ -1,0 +1,13 @@
+FreeSound Source URL:  https://freesound.org/people/Stickinthemud/sounds/27882/
+
+
+
+--
+
+If you use a custom UGen (Unit Generator) for your exercise, describe it below:
+
+I added Low- and High-Pass filters between the source and the gain UGen.
+These allow the user to make the horn sound more drowned out or tinny, based on slider modification.
+Higher gain = louder, lower gain = quieter
+Lower LP Filter = lower presence of higher frequencies for a more "drowned out" sound.
+Higher HP Filter = lower presence of lower frequencies for a more "tinny" sound.

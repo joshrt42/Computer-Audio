@@ -1,0 +1,16 @@
+Josh Terry Writeup
+
+Background sound
+    Using my cell phone, I recorded a ticking clock in my room for 10 seconds.
+    A running mini-fridge, a fan, AC, and a desktop all caused background noise, which I filtered out using OcenAudio's Automatic noise reduction effect.
+    I also duplicated one of the clip's middle "tick" sounds near the end of the clip to make it last a bit longer, then faded the first and last 0.5 seconds in and out, respectively, and then cut the last 0.5 second of the clip and laid that over the first 0.5 second segment to smoothly loop it.
+    Then, I normalized the clip.
+
+Voiceover
+    The source of my voiceover sentence was the 4th instruction on this exercise.
+    After recording the sentence using my laptop's built-in microphone, I deleted the leading and following silence, deleted several silent bits within the file, and normalized the audio clip for submission.
+
+Notes
+    Background noise was present due to fan, AC, desktop, and mini-fridge
+    Used my cell phone's built-in microphone to record background_raw.wav
+    Used my laptop's built-in microphone to record voiceover_raw.wav
